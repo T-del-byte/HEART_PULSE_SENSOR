@@ -9,7 +9,7 @@ Heart Pulse Sensor.
 # Working Principle
 The working principle of a heart pulse sensor is based on photoplethysmography (PPG), which detects changes in blood volume in tissues caused by the heart's pumping action. The sensor consists of a light-emitting diode (LED) and a photodetector, such as a photodiode or light-dependent resistor. The LED emits light, typically red or infrared, onto the skin. Some of this light is absorbed by the blood, while the rest is reflected or transmitted through the tissue. As the heart pumps blood, the blood volume in the tissue changes with each heartbeat, causing variations in the amount of light absorbed. These changes result in fluctuations in the intensity of the reflected or transmitted light, which are detected by the photodetector.
 # Construction
-step 1: Connect the pulse sensor  
+step 1: Connect the pulse sensor 
 1. Connect the vcc pin of the pulse sensor to the 5v pin on the arduino.  
 2. Connect the gnd pin of the pulse sensor to the gnd pin on the arduino.  
 3. Connect the signal pin of the pulse sensor to the a0 (analog input) pin on the arduino.  
